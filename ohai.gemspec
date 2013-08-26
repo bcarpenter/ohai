@@ -8,8 +8,8 @@ spec = Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.summary = "Ohai profiles your system and emits JSON"
   s.description = s.summary
-  s.author = "Adam Jacob"
-  s.email = "adam@opscode.com"
+  s.authors = ["Adam Jacob", "Ben Carpenter"]
+  s.email = ["adam@opscode.com", "ben@bencarpenter.org"]
   s.homepage = "http://wiki.opscode.com/display/chef/Ohai"
 
   # This only helps with bundler because otherwise we make a dependency based
